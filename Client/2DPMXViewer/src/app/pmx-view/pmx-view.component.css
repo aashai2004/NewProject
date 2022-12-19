@@ -1,0 +1,78 @@
+/* #renderCanvas
+{
+
+    background-color: rgb(245, 220, 189);
+    color: white;
+
+    resize: both;
+    overflow: hidden;
+    display: block;
+}
+.canvasClass
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: DodgerBlue;
+  min-width: none;
+  padding-right: 0;
+  resize: both;
+  overflow: hidden;
+} */
+
+/* .sketch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} */
+
+.canvasParent
+{
+  background :#f6f6f6;
+  min-height: 10px;
+  height: calc(98vh - 162px);
+  max-height:calc(98vh - 162px);
+  min-width: 10px;
+  width: calc(98vh - 162px);
+  max-width:calc(98vh - 162px);
+  align-items: center;
+  justify-content: center;
+}
+
+
+#renderCanvas
+{
+    /* background-color: grey;
+    height: 100%;
+    position: relative;
+    flex-wrap: wrap; */
+    background-color: rgb(245, 220, 189);
+    color: white;
+    /* width: 100px; */
+    height: 100%;
+}
+.canvasClass
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 300px; */
+  background-color: DodgerBlue;
+  min-width: none;
+  padding-right: 0;
+}
